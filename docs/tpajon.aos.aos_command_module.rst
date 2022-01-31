@@ -19,7 +19,7 @@ Synopsis
 Parameters
 ----------
 
-.. raw::html
+.. raw:: html
     <table border=0 cellpadding=0 class="documentation-table">
       <tr>
         <th colspan="2">Parameter</th>
@@ -43,6 +43,23 @@ Parameters
           <div>List of commands to send to the remote aos device over the configured provider. The resulting output from the command is returned. If the <em>wait_for</em> argument is provided, the module is not returned until the condition is satisfied or the number of retries has expired. If a command sent to the device requires answering a prompt, it is possible to pass a dict containing <em>command</em>, <em>answer</em> and <em>prompt</em>. Common answers are &#x27;y&#x27; or &quot;\r&quot; (carriage return, must be double quotes). See examples.</div>
         </td>
       </tr>
+      
+      <tr>
+         <td colspan="2">
+            <div class="ansibleOptionAnchor" id="parameter-"></div>
+            <b>interval</b>
+            <a class="ansibleOptionLink" href="#parameter-" title="Permalink to this option"></a>
+            <div style="font-size: small">
+               <span style="color: purple">integer</span>
+            </div>
+         </td>
+         <td>
+            <b>Default:</b><br/><div style="color: blue">1</div>
+         </td>
+         <td>
+            <div>Configures the interval in seconds to wait between retries of the command. If the command does not pass the specified conditions, the interval indicates how long to wait before trying the command again.</div>
+         </td>
+         </tr>
     </table>
     <br/>
 
