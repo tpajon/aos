@@ -19,8 +19,8 @@ Synopsis
 Parameters
 ----------
 
-.. raw:: html
-    <table  border=0 cellpadding=0 class="documentation-table">
+.. raw::html
+    <table border=0 cellpadding=0 class="documentation-table">
       <tr>
         <th colspan="2">Parameter</th>
         <th>Choices/<font color="blue">Defaults</font></th>
