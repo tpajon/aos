@@ -11,7 +11,7 @@ from ansible.module_utils._text import to_text
 from ansible.module_utils.basic import AnsibleModule
 from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.parsing import Conditional
 from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.utils import transform_commands, to_lines
-from tpajon.aos.plugins.module_utils.network.aos.aos import aos_argument_spec, run_commands
+from ansible_collections.tpajon.aos.plugins.module_utils.network.aos.aos import aos_argument_spec, run_commands
 
 
 def parse_command(module: AnsibleModule, warnings: list):
