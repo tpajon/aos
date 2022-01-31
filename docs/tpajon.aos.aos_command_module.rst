@@ -1,4 +1,4 @@
-.. _tpajon.aos.aos_command_module:
+.. _aos.aos_command_module:
 
 **********************
 tpajon.aos.aos_command
