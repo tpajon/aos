@@ -45,21 +45,39 @@ Parameters
       </tr>
       
       <tr>
-         <td colspan="2">
-            <div class="ansibleOptionAnchor" id="parameter-"></div>
-            <b>interval</b>
-            <a class="ansibleOptionLink" href="#parameter-" title="Permalink to this option"></a>
-            <div style="font-size: small">
-               <span style="color: purple">integer</span>
-            </div>
-         </td>
-         <td>
-            <b>Default:</b><br/><div style="color: blue">1</div>
-         </td>
-         <td>
-            <div>Configures the interval in seconds to wait between retries of the command. If the command does not pass the specified conditions, the interval indicates how long to wait before trying the command again.</div>
-         </td>
-         </tr>
+        <td colspan="2">
+          <div class="ansibleOptionAnchor" id="parameter-"></div>
+          <b>interval</b>
+          <a class="ansibleOptionLink" href="#parameter-" title="Permalink to this option"></a>
+          <div style="font-size: small">
+              <span style="color: purple">integer</span>
+          </div>
+        </td>
+        <td>
+          <b>Default:</b><br/><div style="color: blue">1</div>
+        </td>
+        <td>
+          <div>Configures the interval in seconds to wait between retries of the command. If the command does not pass the specified conditions, the interval indicates how long to wait before trying the command again.</div>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <div class="ansibleOptionAnchor" id="parameter-"></div>
+          <b>wait_for</b>
+          <a class="ansibleOptionLink" href="#parameter-" title="Permalink to this option"></a>
+          <div style="font-size: small">
+            <span style="color: purple">list</span>
+              / <span style="color: purple">elements=string</span>
+          </div>
+        </td>
+        <td>
+        </td>
+        <td>
+          <div>List of conditions to evaluate against the output of the command. The task will wait for each condition to be true before moving forward. If the conditional is not true within the configured number of retries, the task fails. See examples.</div>
+          <div style="font-size: small; color: darkgreen"><br/>aliases: waitfor</div>
+        </td>
+      </tr>
     </table>
     <br/>
 
