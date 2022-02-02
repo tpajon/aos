@@ -25,6 +25,8 @@ Parameters
   | **commands** |                  | List of commands to send to the remote ios device over the configured provider. The resulting |
   |              |                  |                                                                                               |
   | list         |                  |                                                                                               |
+  |              |                  |                                                                                               |
+  | elements=raw |                  |                                                                                               |
   +--------------+------------------+-----------------------------------------------------------------------------------------------+
 
 Notes
