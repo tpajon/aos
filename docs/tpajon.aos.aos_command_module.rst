@@ -24,7 +24,7 @@ Parameters
   +==============+==================+======================================================================================================+
   | **commands** |                  | List of commands to send to the remote ios device over the configured provider. The resulting        |
   |              |                  |                                                                                                      |
-  | list         |                  |                                                                                                      |
+  | list         |                  | output from the command is returned. If the wait_for argument is provided, the module is not         |
   |              |                  |                                                                                                      |
   | elements=raw |                  | returned until the condition is satisfied or the number of retries has expired. If a command sent to |
   +--------------+------------------+------------------------------------------------------------------------------------------------------+
