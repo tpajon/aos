@@ -23,9 +23,6 @@ Parameters
   | Parameter | Choices/Defaults | Comments |
   +===========+==================+==========+
   |   |   |   |
-  |   |   |   |
-  |   |   |   |
-  |   |   |   |
   +---+---+---+
 
 Notes
