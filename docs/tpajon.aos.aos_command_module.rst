@@ -19,7 +19,16 @@ Synopsis
 Parameters
 ----------
 
-.. raw:: html
+.. code-block:: rest
+    +-----------+------------------+----------+
+    | Parameter | Choices/Defaults | Comments |
+    +===========+==================+==========+
+    | *commands* |  | List of commands to send to the remote ios device over the configured provider. The resulting output from the command is returned. If the wait_for argument is provided, the module is not returned until the condition is satisfied or the number of retries has expired. If a command sent to the device requires answering a prompt, it is possible to pass a dict containing command, answer and prompt. Common answers are 'y' or "\r" (carriage return, must be double quotes). See examples. |
+    | list |  |  |
+    | elements=raw |  |  |
+    | required |  |  |
+    +---+---+---+
+
     <table border=1 cellpadding=0 class="documentation-table">
       <tr>
         <th colspan="2">Parameter</th>
