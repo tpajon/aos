@@ -8,7 +8,7 @@ module: aos_command
 author: Thomas PAJON (@tpajon)
 short_description: Run commands on remote devices running Aruba OS
 description:
-- Sends arbitrary commands to an ios node and returns the results read from the device.
+- Sends arbitrary commands to an aos node and returns the results read from the device.
   This module includes an argument that will cause the module to wait for a specific
   condition before returning or timing out if the condition is not met.
 version_added: 1.0.0
