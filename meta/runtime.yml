@@ -1,0 +1,11 @@
+---
+requires_ansible: ">=2.9.10"
+plugin_routing:
+  action:
+    aos_command:
+      redirect: tpajon.aos.aos
+    command:
+      redirect: tpajon.aos.aos
+  modules:
+    command:
+      redirect: tpajon.aos.aos_command
