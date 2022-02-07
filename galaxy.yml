@@ -3,7 +3,7 @@ namespace: tpajon
 
 name: aos
 
-version: 1.0.3
+version: 1.0.4
 
 readme: README.md
 
@@ -17,7 +17,7 @@ license_file: 'LICENSE'
 tags: ['tpajon', 'aos', 'aruba', 'arubaos', 'switch', 'networking', 'network']
 
 dependencies:
-  "ansible.netcommon": ">=2.0.1"
+  "ansible.netcommon": ">=1.4.1"
 
 repository: https://github.com/tpajon/aos.git
 
