@@ -112,7 +112,7 @@ from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.u
 from ansible_collections.tpajon.aos.plugins.module_utils.network.aos.aos import aos_argument_spec, run_commands
 
 
-def parse_command(module: AnsibleModule, warnings: list):
+def parse_command(module, warnings):
   commands = transform_commands(module)
 
   if module.check_mode:
